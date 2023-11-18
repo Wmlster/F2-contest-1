@@ -22,6 +22,7 @@ function addData() {
   obj.name = name;
 
   let age = prompt("Enter age: ");
+  age = parseInt(age);
   obj.age = age;
 
   let profession = prompt("Enter profession: ");
